@@ -1,0 +1,7 @@
+# Codex-only metadata (ignored by Claude Code / Cowork). Format: developers.openai.com/codex/skills
+interface:
+  display_name: "cycle-lesson-global — global conclusion"
+  short_description: "Save a lesson that applies to all projects. ALWAYS asks for consent before writing."
+policy:
+  # The skill itself gates the write with explicit consent, so implicit only PROPOSES — no silent write.
+  allow_implicit_invocation: true

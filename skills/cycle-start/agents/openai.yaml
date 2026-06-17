@@ -1,0 +1,9 @@
+# Codex Agent Skills metadata. Read ONLY by Codex; Claude Code / Cowork ignore it —
+# so the skill stays dual-compatible: one SKILL.md, two platforms.
+interface:
+  display_name: "cycle-start — enter a session"
+  short_description: "Load the multi-session project state from the documents and report: where we are + one next move."
+policy:
+  # /start should also fire automatically when returning to a project, so keep implicit = true (default).
+  # Negative triggers in the description guard against false firing (npm start, docker start...).
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+# Codex-only metadata (ignored by Claude Code / Cowork). Format: developers.openai.com/codex/skills
+interface:
+  display_name: "cycle-kickoff — set up a project"
+  short_description: "Set up a new multi-session project (structure + state documents). One-time command — invoke explicitly: $cycle-kickoff."
+policy:
+  # Creates the file structure — most costly on a false fire (scaffold in cwd).
+  # So ONLY explicit invocation ($cycle-kickoff), especially with the 'superpowers' framework active.
+  allow_implicit_invocation: false

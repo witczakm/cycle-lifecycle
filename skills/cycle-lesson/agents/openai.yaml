@@ -1,0 +1,6 @@
+# Codex-only metadata (ignored by Claude Code / Cowork). Format: developers.openai.com/codex/skills
+interface:
+  display_name: "cycle-lesson — project conclusion"
+  short_description: "Add a conclusion to the project's LESSONS_CANON in the Rule / Why / Operational test format."
+policy:
+  allow_implicit_invocation: true

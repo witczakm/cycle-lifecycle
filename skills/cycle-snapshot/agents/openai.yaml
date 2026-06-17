@@ -1,0 +1,6 @@
+# Codex-only metadata (ignored by Claude Code / Cowork). Format: developers.openai.com/codex/skills
+interface:
+  display_name: "cycle-snapshot — mid-session snapshot"
+  short_description: "Light state save after a decision: overwrite HANDOFF, refresh CONFIG and the step status. No lessons, no commit."
+policy:
+  allow_implicit_invocation: true

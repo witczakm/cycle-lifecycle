@@ -1,0 +1,22 @@
+{
+  "name": "cycle-lifecycle",
+  "version": "2.4.0",
+  "description": "Project memory for AI agents — 7 commands for running multi-session projects. State lives in files; /start loads it, /close saves it. Dual-compatible (Codex + Claude).",
+  "author": { "name": "Michał Witczak" },
+  "license": "MIT",
+  "keywords": ["productivity", "project-management", "multi-session", "cycle"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "cycle-lifecycle",
+    "shortDescription": "Run multi-session projects: stage/step position, drift-check, lessons.",
+    "longDescription": "7 session-loop skills: cycle-kickoff, cycle-start, cycle-snapshot, cycle-roadmap, cycle-lesson, cycle-lesson-global, cycle-close. Project state lives in files, not in the chat scroll — each session begins with $cycle-start (where we are + one next move) and ends with $cycle-close (a consistent save + a ready commit). The goal: run a project across dozens of sessions without losing context and without burning tokens on one giant thread.",
+    "developerName": "Michał Witczak",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "$cycle-start — enter a project session (where we are + next move)",
+      "$cycle-kickoff — set up a new multi-session project"
+    ],
+    "brandColor": "#3B82F6"
+  }
+}

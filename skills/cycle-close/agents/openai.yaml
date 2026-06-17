@@ -1,0 +1,7 @@
+# Codex-only metadata (ignored by Claude Code / Cowork). Format: developers.openai.com/codex/skills
+interface:
+  display_name: "cycle-close — wrap up a session"
+  short_description: "Wrap up the session: update the state documents, capture lessons, prepare a commit (does not run git)."
+policy:
+  # Intent-driven ("wrap up the session") + strong negative triggers (file/window/PR) → implicit OK.
+  allow_implicit_invocation: true
