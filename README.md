@@ -1,8 +1,15 @@
 # cycle-lifecycle
 
+> [!WARNING]
+> **⚠️ Outdated (2.4.0) — superseded by [cykl-lifecycle 3.1](https://github.com/witczakm/cykl-lifecycle) (EN + PL).**
+> This repository is no longer maintained. Version 3 rebuilt the lifecycle around a single
+> validated writer with size-capped reads, and its documentation is now in English and Polish,
+> so a separate English repository is no longer needed. Use **https://github.com/witczakm/cykl-lifecycle**.
+> The 2.4.0 content below is kept for reference only.
+
 > **Project memory for AI agents.** Run a single project across dozens of sessions with Claude or Codex — at the start of every session the model knows where you left off and what comes next.
 >
-> 🇵🇱 Wersja polska / Polish version: **[witczakm/cykl-lifecycle](https://github.com/witczakm/cykl-lifecycle)**
+> Current version (English + Polski): **[witczakm/cykl-lifecycle](https://github.com/witczakm/cykl-lifecycle)**
 
 [![Version](https://img.shields.io/badge/version-2.4.0-blue)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
